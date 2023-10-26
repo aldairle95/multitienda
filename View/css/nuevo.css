@@ -1,0 +1,690 @@
+/*=============================================
+GLOBAL
+=============================================*/
+*{
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, input, textarea, select, button{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active{
+	list-style: none;
+	text-decoration: none;
+}
+
+/*=============================================
+HEADER
+=============================================*/
+body .container{
+	
+
+}
+header{
+	position: absolute;
+	top:0;
+	z-index:3;
+}
+
+header .grid-container{
+	display:grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr 1fr  1fr 2fr 2fr;
+}
+
+header .grid-item{
+	background-color: #cc0000;
+	height: 50px;
+	width: 100%;
+}
+.grid-item-es{
+	background-color: #cc0000;
+	height: 50px;
+	
+}
+header .logo{
+	background-color: #cc0000;
+	height: 100%;
+	width: 100%;
+	color: white;
+}
+
+.logo img:hover{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.log img{
+	width: 100px;
+  	height:50px;
+  	object-fit: cover;
+	margin-right: 25px;
+}
+.log img:hover{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.navbar-nav {
+	/* margin-left:auto ; */
+	font-size:1.3vw;
+}
+.d-flex a{
+	font-size:1.4vw;
+	margin-left:-100% ;
+
+}
+.d-flex1 button{
+	margin: auto;
+	width:95% ;
+	font-size:1vw;
+}
+  .r{
+	width: 100%;
+	height:100%;
+	margin-top:6px;
+	margin-left:5%;
+	font-size:3vw;
+	text-align: center;
+}
+.fa {
+  padding:10px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 2px;
+  border-color: white;
+  
+}
+.fa-instagram {
+ 
+  color: white;
+
+}
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  
+  color: white;
+  
+}
+.fa-google {
+  
+  color: white;
+}
+
+.fa-whatsapp {
+  
+  color: white;
+}
+
+.fa-search{
+	color: white;
+	
+}
+
+/*=============================================
+		NOTICIA 1
+=============================================*/
+section .grid-container{
+	display:grid;
+	grid-template-columns: 7fr 3fr ;
+	grid-template-rows:0fr ;
+	margin-top: 50px;
+
+}
+
+section .grid-item{
+	background-color: #DCDFE2;
+	text-align:center;
+	height:auto;
+	width: 100%;
+	margin-top:20px; 
+	margin-right:10px; 
+	margin-left: 10px;
+	margin-bottom:10px;
+
+}
+section img{
+	width: 70%;
+	height:200px;
+	margin-bottom:10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	text-align: justify;
+	object-fit: cover;
+	min-width: 10%;
+
+}
+section img:hover{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+section h1{
+	text-align: center;
+	font-size: 2vw;
+}
+section p {
+	margin-bottom:10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+		text-align: justify;
+		font-size: 1vw;
+
+}
+.video iframe{
+	width:70%;
+	height:200px;
+	margin-top: 5%;
+}
+/*seccion noricias 1*/
+/*formulario*/
+.informa {
+	background-color:white;
+	border: 2px solid white;
+	text-align:center;
+	height:auto;
+	width: 95%;
+	margin-top:5px; 
+    margin-bottom:10px;
+	margin-right:10px; 
+	margin-left:3%;
+
+
+}
+.info h1{
+	margin-top: 20px;
+	font-size: 2vw;
+	color: white;
+}
+
+.info{
+	background-color: #cc0000;
+	font-size: 1vw;
+	color: white;
+	text-align:center;
+	height:40%;
+	width: 100%; 
+    margin-bottom:30px;
+    border-radius: 20px;
+}
+
+/*formulario*/
+/*=============================================
+		VIDEO Y UBICACION
+=============================================*/
+
+
+.ubi{
+	background-color: white;
+	border: 2px solid white;
+	height: 50%;
+	width: auto;
+	align-self: center;
+	
+
+
+}
+.ubi h1{
+	background: #cc0000;
+	font-size: 2vw;
+	color: white;
+	margin-bottom: 0px;
+}
+.ubi iframe{
+	height:90%;
+	width: 100%;
+	object-fit: cover;
+
+}
+/*=============================================
+		FOOTER
+=============================================*/
+footer .piepagina{
+	height: auto;
+	display:grid;
+	grid-template-columns: 3fr 3fr 3fr;
+	background-color: silver;
+}
+.info1{
+	background-color:#202020;
+	text-align:center;
+	height: auto;
+	width: auto;
+	color: white;
+
+}
+.info1 img{
+	width: 50%;
+	height:100px;
+	object-fit:cover;
+	margin-top: 5%;
+	border-radius:20px; 
+}
+.info2{
+	background-color: #202020;
+	height: auto;
+	text-align: center;
+	width: auto;
+	color: white;
+	margin-left:0px;
+	margin-right:0px;
+
+}
+.info2 h4{
+	margin-top: 10px;
+	font-size: 2vw;
+	text-align: center;
+}
+.info2 a{
+	font-size: 1.2vw;
+	
+}
+.info3{
+	background-color: #202020;
+	text-align:center;
+	height: auto;
+	width: auto;
+	color: white;
+
+}
+ .f{
+	width: 40%;
+	height: auto;
+	margin-top:5%;
+	margin-left:30%;
+	font-size: 2vw;
+}
+.info3 h4{
+	margin-top: 10px;
+	font-size: 2vw;
+}
+.info3.fa{
+	width: 20%;
+	height: 10%;
+	font-size: 2vw;
+}
+.fa a{
+	width: 20%;
+}
+/*  =============================================
+para dispositivos mobiles horizontal
+=============================================*/
+@media screen and (min-width:250px) and (max-width: 767px){
+
+body {
+		background: white;
+		
+	}
+
+	header .grid-container{
+	display:grid;
+	grid-template-columns:1fr;
+	
+}
+
+.navbar-nav a{
+	margin-left:0% ;
+	font-size:4vw;
+}
+.d-flex a{
+	
+	margin-left:0% ; 
+}
+
+.d-flex1 button{
+	margin: auto;
+	height: 90%;
+	font-size:4vw;
+}
+
+/*seccion noricias 1*/
+section .grid-container{
+	display:grid;
+	grid-template-columns: 1fr;
+	margin-top: 50px;
+
+}
+section .grid-item{
+	background-color: #DCDFE2;
+	text-align:center;
+	height:auto;
+	width: auto;
+
+
+}
+section h1{
+	text-align: center;
+	font-size: 3vw;
+}
+section p {
+	margin-bottom:10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+		text-align: justify;
+		font-size: 2vw;
+  }
+
+.informa {
+	background-color:white;
+	border: 2px solid white;
+	text-align:center;
+	height:auto;
+	width: 95%;
+	margin-top:5px; 
+    margin-bottom:10px;
+	margin-right:10px; 
+	margin-left:3%;
+
+
+}
+.info h1{
+	margin-top: 20px;
+	font-size: 3vw;
+	color: white;
+}
+
+.info{
+	background-color: #cc0000;
+	font-size: 2vw;
+	color: white;
+	text-align:center;
+	height:auto;
+	width: 100%; 
+    margin-bottom:0%;
+    border-radius: 20px;
+}
+
+/*formulario*/
+/*=============================================
+		VIDEO Y UBICACION
+=============================================*/
+
+
+.ubi{
+	background-color: white;
+	border: 2px solid white;
+	height: 50%;
+	width: auto;
+	align-self: center;
+	
+
+
+}
+.ubi h1{
+	background: #cc0000;
+	font-size: 3vw;
+	color: white;
+	margin-bottom: 0px;
+}
+.ubi iframe{
+	height:90%;
+	width: 100%;
+	object-fit: cover;
+
+}
+
+/*footer*/
+	footer .piepagina{
+	display:grid;
+	grid-template-columns: 1fr;
+	background-color: silver;
+}
+.info1{
+	background-color:#202020;
+	text-align:center;
+	height: auto;
+	width: auto;
+	color: white;
+
+}
+.info1 img{
+	width: 50%;
+	height:100px;
+	object-fit:cover;
+	margin-top: 5%;
+	border-radius:20px; 
+}
+.info2{
+	background-color: #202020;
+	height: auto;
+	text-align: center;
+	width: auto;
+	color: white;
+	margin-left:0px;
+	margin-right:0px;
+
+}
+.info2 h4{
+	margin-top: 10px;
+	font-size: 3vw;
+	text-align: center;
+}
+.info2 a{
+	font-size: 2vw;
+	
+}
+.info3{
+	background-color: #202020;
+	text-align:center;
+	height: auto;
+	width: auto;
+	color: white;
+
+}
+ .f{
+	width: 40%;
+	height: auto;
+	margin-top:5%;
+	margin-left:30%;
+	font-size: 5vw;
+	
+
+}
+.info3 h4{
+	margin-top: 10px;
+	font-size: 2vw;
+}
+.info3.fa{
+	width: 20%;
+	height: 10%;
+	font-size: 2vw;
+}
+.fa a{
+	width: 20%;
+}
+  }  
+
+/*=============================================
+para dispositivos tablet vertical
+=============================================*/
+@media screen and (min-width:768px) and (max-width: 1200px){
+
+body {
+		background: white;
+	}
+
+	header .grid-container{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr 3fr;
+	
+}
+.log img{
+	width: 200%;
+  	height:30px;
+  	object-fit: cover;
+  	margin-top: 5px;
+  	margin-left: 15%;
+
+}
+
+
+/*seccion noricias 1*/
+section .grid-container{
+	display:grid;
+	grid-template-columns: 1fr;
+	margin-top: 50px;
+
+}
+section .grid-item{
+	background-color: #DCDFE2;
+	text-align:center;
+	height:auto;
+	width: auto;
+
+
+}
+section h1{
+	text-align: center;
+	font-size: 2vw;
+}
+section p {
+	margin-bottom:10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+		text-align: justify;
+		font-size: 1.5vw;
+  }
+.informa {
+	background-color:white;
+	border: 2px solid white;
+	text-align:center;
+	height:auto;
+	width: 95%;
+	margin-top:5px; 
+    margin-bottom:10px;
+	margin-right:10px; 
+	margin-left:3%;
+
+
+}
+.info h1{
+	margin-top: 20px;
+	font-size: 3vw;
+	color: white;
+}
+
+.info{
+	background-color: #cc0000;
+	font-size: 2vw;
+	color: white;
+	text-align:center;
+	height:auto;
+	width: 100%; 
+    margin-bottom:0%;
+    border-radius: 20px;
+}
+
+/*formulario*/
+/*=============================================
+		VIDEO Y UBICACION
+=============================================*/
+
+
+.ubi{
+	background-color: white;
+	border: 2px solid white;
+	height: 50%;
+	width: auto;
+	align-self: center;
+	
+
+
+}
+.ubi h1{
+	background: #cc0000;
+	font-size: 3vw;
+	color: white;
+	margin-bottom: 0px;
+}
+.ubi iframe{
+	height:90%;
+	width: 100%;
+	object-fit: cover;
+
+}
+
+/*footer*/
+	footer .container{
+	grid-template-row: 1fr;
+}
+.info1{
+	background-color:#202020;
+	text-align:center;
+	height: auto;
+	width: auto;
+	color: white;
+
+}
+.info1 img{
+	width: 50%;
+	height:100px;
+	object-fit:cover;
+	margin-top: 5%;
+	border-radius:20px; 
+}
+.info2{
+	background-color: #202020;
+	height: auto;
+	text-align: center;
+	width: auto;
+	color: white;
+	margin-left:0px;
+	margin-right:0px;
+
+}
+.info2 h4{
+	margin-top: 10px;
+	font-size: 2vw;
+	text-align: center;
+}
+.info2 a{
+	font-size: 1.2vw;
+	
+}
+.info3{
+	background-color: #202020;
+	text-align:center;
+	height: auto;
+	width: auto;
+	color: white;
+
+}
+ .f{
+	width: 40%;
+	height: auto;
+	margin-top:5%;
+	margin-left:30%;
+	font-size: 4vw;
+	
+
+}
+.info3 h4{
+	margin-top: 10px;
+	font-size: 2vw;
+}
+.info3.fa{
+	width: 20%;
+	height: 10%;
+	font-size: 2vw;
+}
+.fa a{
+	width: 20%;
+}
+  }  
+
